@@ -5,7 +5,7 @@ app = FastAPI()
 
 @app.get("/")
 def read_root():
-    return {"Hello": "World1", "World2": "This is pakistan"}
+    return {"Hello": "World1", "World2": "This is pakistan", "World3": "This is final"}
 
 @app.get("about/")
 def about_page():
